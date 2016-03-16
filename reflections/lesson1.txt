@@ -1,0 +1,25 @@
+1)How did veiwing a diff between two versions of a file help you see the bug that was introduced?
+-It helped since the only worked I had to do was look through everything that had changed. The computer looked through both files first and narrowed it down to anything that had changed. 
+--How to apply 'diff': diff -u first_file_to_compare.file_type second_file_to_compare.file_type---note it all goes on one line
+
+2)How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+-It could help because you can see the progress you make through a project, or if something goes wrong you can look through past programs and compare.
+
+3)What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+-Pros:  you save a git when you know its the right time
+		it is definate that each commit has a worthwhile purpose
+		it is more suited to YOU
+ Cons:  You could forget to commit
+ 		you could commit something that isnt worthwhile or something that is to big
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+-because it is much more likely that one file affects another in git, but it google docs you usually have seperate documents for different things
+
+5)How can you use the commands git log and git diff to view the history of files?
+-you usually have to have the name of the file, eg. .cd asteroids' for the asteroids game. then use git log to get all the logs then search thrpugh them to find the one you want. then use git diff to compare them
+
+6)How might using version control make you more confident to make changes that could break something?
+-It means that if you make a mistake, you can just go back to the last working version, then find out what line was added/removed to cause the bug
+
+7)Now that you have your workspace set up, what do you want to try using Git for?
+-I wanted to use git because i want to learn android studio. They recogmennded git
