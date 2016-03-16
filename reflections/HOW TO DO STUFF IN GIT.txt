@@ -1,0 +1,28 @@
+HOW TO DO STUFF
+
+1) Diff: diff -u first_file_to_compare.file_type second_file_to_compare.file_type--note you dont have to compare two things you can do one
+git diff --staged shows the difference between files in the staging area and repository
+
+2) open Subline text file; literally type subl into git bash
+
+3) Cloning a repository: git clone followed by the url, then look in users, cjaik, downloads
+
+4)open a commits log: go into the file. Example: cd name_of_file and then type in git log, you can look further into the log by pressingthe won arrow-must be in users then cjaik
+
+5)another way to do diff if 1) doesnt work: git diff first_thing second_thing --note that this is used to compare commits---note you dont have to compare two things you can do one
+
+6) git checkout:opens a previous verison just type git checkout then the id from a commit, then go into the folder and open the html
+
+7)when i have a new repositary use git init to get a commits file
+
+8) git status is used to tell what files are ready to be commited
+
+9)git init: must be done so you can create commits, only do this on the first time, even if you close git
+
+8)git add, adds a file to the staging area so you can create commits- must be git add file.type of file
+
+9) git reset: oppsite of git add, removes from staging aea
+
+10) git branch- shows different types of branches then can use git branch name_of_branch to create a new branch, can use git checkout name_of_branch to move to another branch. Can use git branch -d name_of_branch to delete a branch after its been merged
+
+11) git merge: merges two branches-usually the master and something else-- git merge first_branch second_branch
