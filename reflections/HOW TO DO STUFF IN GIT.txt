@@ -26,3 +26,9 @@ git diff --staged shows the difference between files in the staging area and rep
 10) git branch- shows different types of branches then can use git branch name_of_branch to create a new branch, can use git checkout name_of_branch to move to another branch. Can use git branch -d name_of_branch to delete a branch after its been merged
 
 11) git merge: merges two branches-usually the master and something else-- git merge first_branch second_branch
+
+12) git remote-see if there are any remotes
+--git remote add (name) (then url from git hub) this is used to add repositories to github
+---git remote -v sees if the urls worked, also shows what the urls are if you want to push data to github or fetch data from github
+
+13) git push (name of remote you are sending to github) (name of branch you are sending)---- use this to send stuff to github
