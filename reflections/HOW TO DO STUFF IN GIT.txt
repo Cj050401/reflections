@@ -32,3 +32,5 @@ git diff --staged shows the difference between files in the staging area and rep
 ---git remote -v sees if the urls worked, also shows what the urls are if you want to push data to github or fetch data from github
 
 13) git push (name of remote you are sending to github) (name of branch you are sending)---- use this to send stuff to github
+
+14) git pull (name of remote you're pulling from git hub) (branch name)----use this if you have made a change/added a file on git hub but not on local. Used if two people are working on the same project, but have different computers
